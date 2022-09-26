@@ -3,6 +3,7 @@ function verificar() {
     var ano = data.getFullYear()
     var fano = document.getElementById('idano')
     var res = document.getElementById('res')
+    var img = document.getElementById('id-imagem')
 
     if(fano.value.length == 0 || fano.value > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
@@ -50,7 +51,7 @@ function verificar() {
         } else{
             // Idoso
             img.setAttribute('src', 'imagens/velha.png')
-        }          
+        }   
     }
     
     res.innerHTML = `Detectamos ${gênero} com ${idade} anos. `
