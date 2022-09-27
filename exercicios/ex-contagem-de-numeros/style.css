@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgba(5, 84, 255, 0.705);
     font: normal 15pt Arial;
@@ -8,6 +14,7 @@ body{
 header{
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 section{
@@ -21,12 +28,13 @@ section{
 }
 
 div{
+    text-align: left;
     padding: 8px;
 }
 
 footer{
+    padding: 10px;
     color: white;
     text-align: center;
     font-style: italic;
 }
-
