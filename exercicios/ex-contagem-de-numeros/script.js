@@ -10,11 +10,10 @@ var f = Number(fim.value)
 var p = Number(passo.value)
 var c = ''
 res.innerHTML = ''
-if(i == 0 || f == 0 || p == 0){
-    alert('Preencha as lacunas')
-}  
+if(i == 0 || f == 0 || p <= 0){
+    alert('Valores inválidos')
 
-if (i < f) {
+} else if (i < f) {
     // CONTAGEM CRESCENTE //
     
     for(c = i; c <= f ; c += p){
@@ -22,7 +21,8 @@ if (i < f) {
         res.innerHTML += ` ${c}`
     }
 } 
-else {
+ 
+else  {
     // CONTAGEM DECRESCENTE //
     
     for(c = i; c >= f ; c -= p)
