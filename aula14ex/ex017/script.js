@@ -16,17 +16,17 @@ function tabuada() {
     }
   }
 }
-                                        //  EXEMPLO DE LOOP //
-                                        
-                                        //   ERICK SOUZA
-                                        //  i = 0 | acc = E
-                                        //  i = 1 | acc = ER
-                                        //  i = 2 | acc = ERI
-                                        //  i = 3 | acc = ERIC
-                                        //  i = 4 | acc = ERICK
-                                        //  i = 5 | acc = ERICK 
+//  EXEMPLO DE LOOP //
 
-                                        //  rev = ["ERICK", "SILVA", "DE", "SOUZA"] acc = ""
+//   ERICK SOUZA
+//  i = 0 | acc = E
+//  i = 1 | acc = ER
+//  i = 2 | acc = ERI
+//  i = 3 | acc = ERIC
+//  i = 4 | acc = ERICK
+//  i = 5 | acc = ERICK
+
+//  rev = ["ERICK", "SILVA", "DE", "SOUZA"] acc = ""
 // function reverseWords(str) {
 //   let rev = [];
 //   let acc = "";

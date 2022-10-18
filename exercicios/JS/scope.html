@@ -1,0 +1,30 @@
+<script>
+            //ESCOPO COM VAR
+
+// var é global, e também local
+
+console.log('> existe x antes do bloco?', x)
+// a saída de x será undefined, pois até aqui, x ainda não foi definido.
+
+{
+    var x = 0
+}
+
+console.log('> existe x depois do bloco?', x)
+
+
+
+         //ESCOPO COM LET E CONST
+
+// const e let são locais e só funcionam no escopo onde foi criada
+
+
+{
+    let y = 0
+    console.log('> existe y?', y)
+    //neste exemplo, a variável let tem que ser definida antes de console.log E dentro do bloco.
+}
+ 
+console.log('> existe y depois do bloco?', y)
+//aqui, terá que dar um erro dizendo que y não está definido, pois a variável foi definida dentro do bloco, então, teríamos que, ou mudar let para var ou trazê-la para fora do bloco também.
+</script>
